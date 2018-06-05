@@ -1,7 +1,7 @@
 from selenium import webdriver
 
 def before_all(self):
-	chromedriver = '/home/rizkimp/Downloads/chromedriver'
+	chromedriver = 'features/chromedriver'
 	options = webdriver.ChromeOptions()
 	options.add_argument('headless')
 	self.browser = webdriver.Chrome(executable_path=chromedriver,chrome_options=options)
