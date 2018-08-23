@@ -1,7 +1,7 @@
 Feature: smoke testing arena
 	Scenario: login arena
 		Given go to arena homepage
-    When  login with rizkimahaputra and rizkimahaputra
+    When  login with tahugoreng and 12345678
     Then 	direct to homepage users
 
 	Scenario: set vip and unset vip
